@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider({
+          controls:true
+      });
+    });
+  </script>
+    
+</head>
+<body>
+    <div class = "wrapper">
+        <div class="slider_container">
+            <h3>Your Cart</h3>
+            <ul class = "slider">
+                <li><img src="images/slide_2.jpg" alt="slider_image"></li>
+                <li><img src="images/slide_2.jpg" alt="slider_image"></li>
+                <li><img src="images/slide_2.jpg" alt="slider_image"></li>
+                
+              
+            </ul>
+        </div>
+        <div class="checkout_container">
+            <h3>Credit Card Details</h3>
+            <div class="form">
+                <div class="input_field">
+                    <label for="">Name</label>
+                    <input type="text">
+
+                </div>
+                <div class="input_field">
+                    <label for="">Card  Number</label>
+                    <input type="text">
+
+                </div>
+                <div class="input_field">
+                    <label for="">Expiry Date</label>
+                    <input type="text">
+
+                </div>
+                <div class="input_field">
+                    <label for="">CVV</label>
+                    <input type="text">
+                </div>
+                <div class="btn">
+                    <a href="#">Proceed</a>
+                    
+
+
+                </div>
+
+               
+
+            </div>
+        </div>
+        
+
+
+    </div>
+    
+</body>
+</html>
